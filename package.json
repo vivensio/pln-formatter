@@ -1,0 +1,19 @@
+{
+  "name": "pln-formatter",
+  "version": "0.0.1",
+  "description": "Formats given amount to polish currency notation",
+  "main": "plnFormatter.js",
+  "scripts": {
+
+  },
+  "keywords": [
+    "pln-formatter",
+    "zloty",
+    "currency-formatter-pln"
+  ],
+  "author": "Vivek Patel (vivensio)",
+  "license": "MIT",
+  "devDependencies": {
+    "should": "^9.0.2"
+  }
+}
