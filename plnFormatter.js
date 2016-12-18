@@ -9,9 +9,7 @@ module.exports = (number, separator) => {
     first = zl.substring(0, length % 3),
     rest  = '';
 
-    if (!separator) {
-        separator = '.';
-    }
+    separator = separator || '.';
 
     for (var i = 0; i < length - first.length; i += 3) {
         var from = i + (length % 3);
